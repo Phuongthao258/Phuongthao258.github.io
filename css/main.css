@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.background
+		{
+			width: 1350px;
+			height: 5200px;
+			background-color:black;
+		}
+	.one
+		{
+			width: 1350px;
+			height: 678px;
+			background-image: url("../images/anhmot.jpg");
+		}
+.menu{
+		
+			width: 370px;
+			height: 30px;
+			float: right;		
+			padding:5px;
+		z-index: 100;
+			
+	}
+.game
+{
+	position: relative;
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+
+}
+
+
+	.login
+		{
+			font-size: 18px;
+			width: 100px;
+			height: 30px;
+		}
+	.language
+		{
+			font-size: 18px;
+			width: 200px;
+			height: 30px;
+		
+		}
+	.menu ul li
+		{
+			width: 70px;
+			position: relative;
+			float: left;
+			padding: 9px;
+			margin-left: -22px;
+		}
+
+	.menu ul 
+		{
+			list-style: none;
+			color: aliceblue;
+			margin: 3px;
+		}
+	.menu ul li a
+		{
+			text-decoration: none;
+		}
+	.menu ul li ul
+		{
+			position: absolute;
+			left:0px;
+			top: 15px;
+			padding: 20px;
+			visibility: hidden;	}
+
+	.menu ul li ul li {width: 200px;}
+
+	.menu ul li ul li:hover{background-color:black;}
+
+	.menu ul li:hover ul
+	{visibility: visible;}
+	.about
+{
+	width: 1350px;
+	height: 1000px;
+	background-image: url("../images/LN2_Screenshot_Hammer.png");
+}
+.about ul {list-style: none;}
+.text
+{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	text-align: left;
+	line-height: 1.25;
+}
+.header
+{
+	font-size: 60px;
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	text-align: left;
+}
+.discover0
+{
+	width: 1350px;
+	height: auto;
+}
+.text1
+{
+	font-size: 30px;
+	width: 480px;
+	height: 450px;
+	margin-left: 820px;
+	text-align:left;
+	line-height: 1.25;
+}
+  .text1 ul {list-style: none;}
+	.text2
+{
+	font-size: 30px;
+	width: 480px;
+	height: 450px;
+	margin-right: 820px;
+	text-align:left;
+	line-height: 1.25;
+}
+
+.text2 ul {list-style: none;}
+.video
+{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+}
+#slideshow 
+{
+   overflow: hidden;
+     height: 720px;
+    width: 1280px;
+   margin: 0 auto;
+}
+.slide-wrapper
+{
+     width: 5120px;
+   -webkit-animation: slide 7s ease infinite;
+}
+.slide
+{
+   float: left;
+   height: 720px;
+   width: 1280px;
+}
+@-webkit-keyframes slide 
+{
+   20% {margin-left: 0px;}
+   30% {margin-left: -1280px;}
+   40% {margin-left: -1280px;}
+   50% {margin-left: -2560px;}
+   60% {margin-left: -3840px;} 
+}	
+.Media
+{
+	width: 500px;
+	height: 100px;
+	margin: auto;
+
+}
+.Media ul
+{list-style: none;}
+.down
+{
+	position: relative;
+	width: 300px;
+	height: 45px;
+	margin-left: 50px ;
+	background-color: darkorange;
+	margin-top: 50px;
+
+}
+.down ul
+{
+	padding: 13px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.down ul li
+{list-style: none;}
+.down ul:hover
+{background-color: aliceblue;
+
+}
+.link-new{
+	text-decoration: none;
+	font-weight: bold;
+	color: aliceblue;
+	font-family: serif;
+	font-size: 16px;
+	display: block;
+}
+a.link-new:hover
+{color: darkorange}
+
+.infor
+{
+	position: absolute;
+	width: 680px;
+	height: 500px;
+	margin: auto;
+	color: aliceblue;
+	padding: 10px;
+	line-height: 1.25;
+	font-size: 25px;
+	
+}
+.infor ul {list-style: none}
+.cauhinh
+{
+	width: 680px;
+	height: 500px;
+	margin-left: 620px;
+	color: aliceblue;
+	padding: 10px;
+	line-height: 1.25;
+	font-size: 25px;
+}
+.cauhinh ul  {list-style: none}
+body{
+ 
+  background:#151837;
+  width:90%;
+}
+
+
+.wrapper{
+  margin:40px;
+}
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:relative;
+  transition:0.3s color ease;
+  text-decoration:none;
+  color:#81b3d2;
+}
+a:hover{
+  color:#d73444;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.25em;
+}
+a.after:after{
+  bottom:-0.25em;
+}
+a.before:before,a.after:after{
+  height:3px;
+  height:0.15rem;
+  width:0;
+  background-color: darkorange;
+}
+
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+}
